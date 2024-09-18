@@ -32,7 +32,7 @@ const Education = () => {
   return (
     <Container className="relative bg-white">
       <div className="max-w-6xl mx-auto px-1 md:px-4 sm:px-8">
-        <div className="pb-16 pt-10 sm:pb-24 sm:pt-20 md:pb-48 md:pt-32 flex flex-col gap-y-8">
+        <div className="pb-16 pt-10  flex flex-col gap-y-8">
           {/* TOP PART */}
           <div className="flex flex-col md:flex-row gap-x-8 items-center md:items-start text-center md:text-left w-full">
             <h1 className="w-full md:w-1/2 text-[28px] md:text-[34px] font-bold leading-tight">

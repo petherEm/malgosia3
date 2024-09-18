@@ -7,16 +7,16 @@ function CallToAction() {
   return (
     <div className="relative pb-16 pt-20 text-center sm:py-24">
       <hgroup>
-        <h1>Thanks for visiting my website</h1>
+        <h1>Thank you for visiting my website</h1>
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-          Interested in cooperation?
+          Interested in collaborating?
           <br />
-          Let&apos;s work together!
+          Let&apos;s have a chat!
         </p>
       </hgroup>
       <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Let me know how I can help you. I&apos;m always open to new
-        opportunities and challenges.
+        Feel free to reach out, I&apos;m always open to new opportunities and
+        challenges.
       </p>
       <div className="mt-6 flex items-center justify-center gap-6">
         <Button

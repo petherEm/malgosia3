@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import FullWidthImg from "@/components/FullWidthImg";
 import Expertise from "@/components/Expertise";
 import Education from "@/components/Education";
+import Career from "@/components/Career";
 
 export const metadata: Metadata = {
   title: "Małgorzata Szynkarczuk",
@@ -20,6 +21,7 @@ export default function Home() {
       <AboutMe />
       <FullWidthImg />
       <Expertise />
+      <Career />
       <Education />
       <Footer />
     </div>

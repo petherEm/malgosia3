@@ -56,7 +56,7 @@ const AboutMe = () => {
             <div className="mt-12 flex flex-col gap-4 sm:flex-row justify-center md:justify-start">
               <Button
                 variant="secondary"
-                className="bg-[#D3C7BD] text-[11px] uppercase font-secondary tracking-extra-wide"
+                className="!bg-[#D3C7BD] text-[11px] uppercase font-secondary tracking-extra-wide"
                 href="/cv/my_cv.pdf"
                 download="CV_Malgorzata_Szynkarczuk.pdf"
                 target="_blank"
