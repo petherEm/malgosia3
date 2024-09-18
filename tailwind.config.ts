@@ -7,10 +7,21 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      primary: "var(--font-ptSerif)",
+      secondary: "var(--font-sourceSans3)",
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "#323232",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+      },
+      letterSpacing: {
+        "extra-wide": "0.15em", // Add custom spacing
       },
     },
   },
